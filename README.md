@@ -1,9 +1,10 @@
-Stack for Chat - application:
-Frontend        Next.js + Tailwind
-Backend         FastAPI
-AI/Agent        LangChain
-LLM             Gemini
-Vector DB       Pinecone
-Database        Supabase PostgreSQL
-Auth            Supabase Auth
-Deployment      Vercel + Render/Railway
+| Layer | Technology |
+|---|---|
+| **Frontend** | Next.js + Tailwind CSS |
+| **Backend** | FastAPI |
+| **AI / Agent** | LangChain |
+| **LLM** | Google Gemini |
+| **Vector DB** | Pinecone |
+| **Database** | Supabase PostgreSQL |
+| **Authentication** | Supabase Auth |
+| **Deployment** | Vercel + Render / Railway |
