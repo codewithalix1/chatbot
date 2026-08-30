@@ -68,7 +68,11 @@ def test_supabase():
             "status": "error",
             "message": str(e)
         }
-
+        
 from routes.users import router as users_router
 
 app.include_router(users_router)
+
+from routes.chat import router as chat_router
+
+app.include_router(chat_router)
